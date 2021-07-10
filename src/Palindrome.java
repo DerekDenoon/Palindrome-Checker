@@ -5,7 +5,8 @@ public class Palindrome {
     static String wordThree;
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter a word");
+        System.out.print("Enter a word: ");
+        System.out.println("the program is case-sensitive");
         wordOne = input.nextLine();
         System.out.println("Enter a second word");
         wordTwo = input.nextLine();
